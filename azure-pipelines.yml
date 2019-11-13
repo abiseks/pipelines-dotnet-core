@@ -33,7 +33,7 @@ stages:
     pool:
       vmImage: 'Ubuntu-16.04'
     # creates an environment if it doesn’t exist
-    environment: 'smarthotel-dev'
+    environment: 'devenv'
     strategy:
       # default deployment strategy
       runOnce:
