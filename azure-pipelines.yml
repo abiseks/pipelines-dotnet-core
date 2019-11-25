@@ -31,7 +31,8 @@ stages:
     # track deployments on the environment
   - deployment: DeployWeb
     pool:
-      vmImage: 'Ubuntu-16.04'
+      #vmImage: 'Ubuntu-16.04'
+      name: 'Phoenix'
     # creates an environment if it doesn’t exist
     environment: 'devenv'
     strategy:
